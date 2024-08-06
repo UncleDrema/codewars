@@ -4,12 +4,12 @@
 
 # Решения задач
 
-| Название задачи                                    | Сложность | Файл                           | Статус             | Ссылка                                                        |
-|----------------------------------------------------|-----------|--------------------------------|--------------------|---------------------------------------------------------------|
+| Название задачи                                                                                  | Сложность | Файл                           | Статус             | Ссылка                                                        |
+|--------------------------------------------------------------------------------------------------|-----------|--------------------------------|--------------------|---------------------------------------------------------------|
 | [Esolang Interpreters #4 - Boolfuck Interpreter](#esolang-interpreters-4---boolfuck-interpreter) | 3 kyu     | [Тык](boolfuck_interpreter.py) | Не решена до конца | [Тык](https://www.codewars.com/kata/5861487fdb20cff3ab000030) |
-| [Rail Fence Cipher: Encoding and Decoding]         | 3 kyu     | [Тык](rail_fence_cipher.py)    | Решена             | [Тык](https://www.codewars.com/kata/58c5577d61aefcf3ff000081) |
-| [Evaluate mathematical expressions]                | 2 kyu     | [Тык](eval_math_expression.py) | Решена             | [Тык](https://www.codewars.com/kata/52a78825cdfc2cfc87000005) |
-| [Break the pieces]                                 | 2 kyu     | [Тык](break_the_pieces.py)     | Решена             | [Тык](https://www.codewars.com/kata/527fde8d24b9309d9b000c4e) |
+| [Rail Fence Cipher: Encoding and Decoding](#rail-fence-cipher-encoding-and-decoding)             | 3 kyu     | [Тык](rail_fence_cipher.py)    | Решена             | [Тык](https://www.codewars.com/kata/58c5577d61aefcf3ff000081) |
+| [Evaluate mathematical expressions](#evaluate-mathematical-expressions)                          | 2 kyu     | [Тык](eval_math_expression.py) | Решена             | [Тык](https://www.codewars.com/kata/52a78825cdfc2cfc87000005) |
+| [Break the pieces](#break-the-pieces)                                                            | 2 kyu     | [Тык](break_the_pieces.py)     | Решена             | [Тык](https://www.codewars.com/kata/527fde8d24b9309d9b000c4e) |
 
 # О каждой задаче
 
