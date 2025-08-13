@@ -4,12 +4,17 @@
 
 # Решения задач
 
-| Название задачи                                                                                  | Сложность | Файл                           | Статус             | Ссылка                                                        |
-|--------------------------------------------------------------------------------------------------|-----------|--------------------------------|--------------------|---------------------------------------------------------------|
-| [Esolang Interpreters #4 - Boolfuck Interpreter](#esolang-interpreters-4---boolfuck-interpreter) | 3 kyu     | [Тык](boolfuck_interpreter.py) | Не решена до конца | [Тык](https://www.codewars.com/kata/5861487fdb20cff3ab000030) |
-| [Rail Fence Cipher: Encoding and Decoding](#rail-fence-cipher-encoding-and-decoding)             | 3 kyu     | [Тык](rail_fence_cipher.py)    | Решена             | [Тык](https://www.codewars.com/kata/58c5577d61aefcf3ff000081) |
-| [Evaluate mathematical expressions](#evaluate-mathematical-expressions)                          | 2 kyu     | [Тык](eval_math_expression.py) | Решена             | [Тык](https://www.codewars.com/kata/52a78825cdfc2cfc87000005) |
-| [Break the pieces](#break-the-pieces)                                                            | 2 kyu     | [Тык](break_the_pieces.py)     | Решена             | [Тык](https://www.codewars.com/kata/527fde8d24b9309d9b000c4e) |
+| Название задачи                                                                                             | Сложность | Файл                                                 | Статус             | Ссылка                                                         |
+|-------------------------------------------------------------------------------------------------------------|-----------|------------------------------------------------------|--------------------|----------------------------------------------------------------|
+| [Esolang Interpreters #4 - Boolfuck Interpreter](#esolang-interpreters-4---boolfuck-interpreter)            | 3 kyu     | [Тык](boolfuck_interpreter.py)                       | Не решена до конца | [Тык](https://www.codewars.com/kata/5861487fdb20cff3ab000030)  |
+| [Rail Fence Cipher: Encoding and Decoding](#rail-fence-cipher-encoding-and-decoding)                        | 3 kyu     | [Тык](rail_fence_cipher.py)                          | Решена             | [Тык](https://www.codewars.com/kata/58c5577d61aefcf3ff000081)  |
+| [Evaluate mathematical expressions](#evaluate-mathematical-expressions)                                     | 2 kyu     | [Тык](eval_math_expression.py)                       | Решена             | [Тык](https://www.codewars.com/kata/52a78825cdfc2cfc87000005)  |
+| [Break the pieces](#break-the-pieces)                                                                       | 2 kyu     | [Тык](break_the_pieces.py)                           | Решена             | [Тык](https://www.codewars.com/kata/527fde8d24b9309d9b000c4e)  |
+| [Prime-streaming](#prime-streaming)                                                                         | 2-3 kyu   | [Тык](prime_streaming.py)                            | Не решена          | [Тык](https://www.codewars.com/kata/5519a584a73e70fa570005f5)  |
+| [Binomial Expansion](#binomial-expansion)                                                                   | 3 kyu     | [Тык](binomial_expansion.py)                         | Решена             | [Тык](https://www.codewars.com/kata/540d0fdd3b6532e5c3000b5b)  |
+| [Regular Expression for Binary Numbers Divisible by n](#regular-expression-for-binary-numbers-divisible-by-n) | 1 kyu     | [Тык](regular_expression_for_binary_divisibility.py) | Не решена          | [Тык](hhttps://www.codewars.com/kata/5993c1d917bc97d05d000068) |
+| [Simpler Interactive Interpreter](#simpler-interactive-interpreter)                                         | 2 kyu     | [Тык](simpler_interactive_interpreter.py)            | Решена             | [Тык](https://www.codewars.com/kata/53005a7b26d12be55c000243)  |
+| [Simple Interactive Interpreter](#simple-interactive-interpreter)                                           | 1 kyu     | [Тык](simple_interactive_interpreter.py)            | Решена             | [Тык](https://www.codewars.com/kata/52ffcfa4aff455b3c2000750)  |
 
 # О каждой задаче
 
@@ -35,7 +40,6 @@
 #### Задача простовата для 3 kyu      
 
 ## Evaluate mathematical expressions
-                    
 Задача классическая, требует написания несложного калькулятора математических выражений с поддержкой одного вида скобок и унарных операций.
 Все операции определены как произвольные действия, имеющие доступ к стеку.
 Само вычисление происходит не для инфиксной записи, а для обратной польской записи, преобразование к которой выполнено [алгоритмом сортировочной станции](https://ru.wikipedia.org/wiki/Алгоритм_сортировочной_станции) Дейкстры.
@@ -46,7 +50,7 @@
 
 ## Break the pieces
 Страшная задача, долго не мог подступиться.
-В один момент пришло озарение и идея - выделить все области при помощи поиска в ширину и потом просто отрисоваь их, не забыв обрезать в пустых местах.
+В один момент пришло озарение и идея - выделить все области при помощи поиска в ширину и потом просто отрисовать их, не забыв обрезать в пустых местах.
 
 Но мне на момент решения задачи было дико лень писать всё это, поэтому задача решалась при помощи метода "попробуй заставить ChatGPT сделать то, что тебе нужно".
 Спустя некоторое время, когда получилось раз двадцать обьяснить Великому ИИ, что он делает не так, результат был получен.
@@ -55,3 +59,34 @@
 Но оно того стоило! Классная задача на подумать и подебажить.
 
 #### Хорошая задача для 2 kyu
+
+## Prime streaming
+Надо написать генератор простых чисел. Сложность в том, что надо быть готовым выдавать **много** (порядка миллиона) простых чисел в секунду. Думаю запоминать уже выданные для проверки простоты.
+
+Пока задачу отложил, но судя по всему единственное решение, укладывающееся в требования - предгенерация всех чисел и возврат их по очереди с большими затратами памяти.
+
+#### Задача спорно подходит под 2-3 kyu, просто надо догадаться о том, что надо предгенерировать все числа
+
+## Binomial Expansion
+
+Задача на разложение биномиального коэффициента в степени n на множители.
+
+Было несложно, просто сгенерировал все биномиальные коээфициенты и умножил на a и b из исходного бинома, а потом просто собрал строку.
+
+#### Задача простовата для 3 kyu
+
+## Regular Expression for Binary Numbers Divisible by n
+
+Выглядело страшно, но поискал инфу, поболтал с ChatGPT, отличная идея про представление через стейты остатков от деления, занимаюсь реализацией.
+
+## Simpler Interactive Interpreter
+
+В целом несложная задача на интерпретацию REPL с присваиванием переменных и вычислением простых математических выражений.
+
+## Simple Interactive Interpreter
+
+Старший брат предыдущей задачи, нужно реализовать вложенные присваивания и объявление функций.
+
+Пришлось навалить кучу костылей, не хотелось сильно задумываться вечером, но в целом всё получилось и работает.
+
+Было бы гораздо чище, если бы получилось представить все как функции (и префиксные и инфиксные).
