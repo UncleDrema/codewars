@@ -16,6 +16,9 @@
 | [Simpler Interactive Interpreter](#simpler-interactive-interpreter)                                           | 2 kyu     | [Тык](simpler_interactive_interpreter.py)            | Решена             | [Тык](https://www.codewars.com/kata/53005a7b26d12be55c000243)  |
 | [Simple Interactive Interpreter](#simple-interactive-interpreter)                                             | 1 kyu     | [Тык](simple_interactive_interpreter.py)             | Решена             | [Тык](https://www.codewars.com/kata/52ffcfa4aff455b3c2000750)  |
 | [Functional SQL](#functional-sql)                                                                             | 1 kyu     | [Тык](functional_sql.py)                             | Решена             | [Тык](https://www.codewars.com/kata/545434090294935e7d0010ab)  |
+| [Change detection decorator](#change-detection-decorator)                                                     | 2 kyu     | [Тык](change_detection_decorator.py)                 | Не решена          | [Тык](https://www.codewars.com/kata/56e02d5f2ebcd50083001300)  |
+| [Debugger](#debugger)                                                                                         | 2 kyu     | [Тык](debugger.py)                                   | Решена             | [Тык](https://www.codewars.com/kata/54bebed0d5b56c5b2600027f)  |
+| [Full Metal Chemist 1](#full-metal-chemist-1)                                                                 | 2 kyu     | [Тык](full_metal_chemist_1.py)                       | Решена             | [Тык](https://www.codewars.com/kata/5a27ca7ab6cfd70f9300007a)  |
 
 # О каждой задаче
 
@@ -109,3 +112,23 @@
 Задача классная, 1 kyu оправданно, особенно если бы я переписал код в более красивый вид :)
 
 ### Как мне кажется не очень сложно для 1 kyu, твердо тянет на 2 kyu
+
+## Change detection decorator
+
+Задача про разработку декоратора для классов на Python, который будет отслеживать статус атрибутов классов и полей объектов.
+Пока забыл как писать декораторы, вспомнил что решал похожую задачу и добавил ниже.
+
+## Debugger
+
+Задача про разработку Python-декоратора для отслеживания операций над объектами.
+Интересно было побольше узнать про возможности метапрограммирования в Python'е, лайк.
+
+### По сложности задача скорее 3 kyu, но оправдано повышение сложности из-за редкости и специфичности темы декораторов
+
+## Full Metal Chemist 1
+
+Суперская задача на реализацию API работы с молекулами органической химии.
+Пришлось пободаться и немного похакать тесты, чтобы понять, что работает не так, но по итогу все ошибки исправлены.
+Не всегда было понятно, что требуется в условии, задача классная.
+
+## Абсолютно оправдан 2 kyu, задача сложная как по предметной области, так и по реализации, требующей обработки краевых случаев
