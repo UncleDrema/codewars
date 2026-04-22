@@ -45,4 +45,5 @@ def print_graphviz_state_machine(n):
 def regex_divisible_by(n):
     state_machine = build_finite_state_machine(n)
 
+random_test_state_machines(5)
 print_graphviz_state_machine(3)
