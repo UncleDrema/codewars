@@ -19,7 +19,9 @@
 | [Change detection decorator](#change-detection-decorator)                                                     | 2 kyu     | [Тык](change_detection_decorator.py)                 | Не решена          | [Тык](https://www.codewars.com/kata/56e02d5f2ebcd50083001300)  |
 | [Debugger](#debugger)                                                                                         | 2 kyu     | [Тык](debugger.py)                                   | Решена             | [Тык](https://www.codewars.com/kata/54bebed0d5b56c5b2600027f)  |
 | [Full Metal Chemist 1](#full-metal-chemist-1)                                                                 | 2 kyu     | [Тык](full_metal_chemist_1.py)                       | Решена             | [Тык](https://www.codewars.com/kata/5a27ca7ab6cfd70f9300007a)  |
-| [Regular expression parser](#regular-expression-parser)   | 2 kyu | [Тык](regular_expression_parser.py) | Решена | [Тык](https://www.codewars.com/kata/5470c635304c127cad000f0d)                                                        |
+| [Regular expression parser](#regular-expression-parser)                                                       | 2 kyu | [Тык](regular_expression_parser.py) | Решена | [Тык](https://www.codewars.com/kata/5470c635304c127cad000f0d)                                                        |
+| [Range Extraction](#range-extraction)                                                                         | 4 kyu | [Тык](range_extraction.py) | Решена | [Тык](https://www.codewars.com/kata/51ba717bb08c1cd60f00002f)                   |
+
 # О каждой задаче
 
 ## Esolang Interpreters #4 - Boolfuck Interpreter
@@ -141,3 +143,9 @@
 Правда пришлось все же немного доделать сам рекурсивный парсер, но это было не сложно.
 
 ### Простовато, кмк, ставить парсер регулярок на 2 kyu, так как реализуется он довольно легко и задача эта известная, скорее подходит 3 kyu.
+
+## Range Extraction
+
+Довольно простая задача на поиск последовательностей чисел в массиве, легко решается за одни проход и две вспомогательные переменные.
+
+### 4 kyu не очень заслуженно для задачи на 15 строчек и базовые операции с массивами, я бы дал 6 kyu
